@@ -19,7 +19,7 @@
 // OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
 // USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-var Transform = require('_stream_transform');
+var Transform = require('readable-stream');
 
 var binding = require('./binding');
 var util = require('util');
