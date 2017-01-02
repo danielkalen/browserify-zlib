@@ -1,9 +1,12 @@
 {
   "name": "@danielkalen/browserify-zlib",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Full zlib module for browserify",
-  "keywords": ["zlib", "browserify"],
-  "main": "index.js",
+  "keywords": [
+    "zlib",
+    "browserify"
+  ],
+  "main": "src/index.js",
   "directories": {
     "test": "test"
   },
@@ -30,7 +33,6 @@
   "scripts": {
     "test": "node_modules/tape/bin/tape test/*.js"
   },
-  "main": "src/index.js",
   "author": "Devon Govett <devongovett@gmail.com>",
   "license": "MIT",
   "repository": {
